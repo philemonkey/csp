@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg716"
+   version="1.1"
+   viewBox="0 0 107.27105 59.163029"
+   height="59.163029mm"
+   width="107.27105mm">
+  <defs
+     id="defs710">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath55">
+      <path
+         d="M 0,0 H 305 V 171 H 0 Z"
+         id="path53" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath65">
+      <path
+         d="M 0,0 H 3045.72 V 1701.82 H 0 Z"
+         id="path63" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata713">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-3.8168575,-65.768193)"
+     id="layer1">
+    <g
+       id="g47"
+       transform="matrix(0.35277777,0,0,-0.35277777,3.6416744,125.57845)">
+      <g
+         id="g49">
+        <g
+           id="g51"
+           clip-path="url(#clipPath55)">
+          <g
+             id="g57"
+             transform="scale(0.1)">
+            <g
+               id="g59">
+              <g
+                 id="g61"
+                 clip-path="url(#clipPath65)">
+                <path
+                   d="m 1551.29,494.84 c 0,0 0,0 2.98,10.73 2.98,10.719 8.92,32.16 14.88,55.078 5.96,22.942 11.91,47.352 14.89,59.563 2.98,12.211 2.98,12.211 2.98,12.211"
+                   style="fill:none;stroke:#147a88;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path67" />
+                <path
+                   d="M 1556.65,491.281 V 216.129"
+                   style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path69" />
+                <g
+                   id="g71"
+                   transform="scale(10)">
+                  <text
+                     transform="matrix(1,0,0,-1,143.241,10.05)"
+                     style="font-variant:normal;font-weight:normal;font-size:9px;font-family:TimesLTPro;-inkscape-font-specification:TimesLTPro-Roman;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                     id="text77">
+                    <tspan
+                       x="0 3.9960001 8.4960003 11.493 14.49 18.486 22.986"
+                       y="0"
+                       id="tspan73">current</tspan>
+                    <tspan
+                       x="4.4960899 7.9970899 10.49909 14.49509 16.997089"
+                       y="8.0878897"
+                       id="tspan75">state</tspan>
+                  </text>
+                </g>
+                <path
+                   d="M 323.828,212.551 V 1584.73"
+                   style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path79" />
+                <path
+                   d="m 304.879,1532.72 18.949,75.82 18.953,-75.82"
+                   style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                   id="path81" />
+                <path
+                   d="m 312.273,1538.5 11.555,46.23 11.559,-46.23"
+                   style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path83" />
+                <g
+                   id="g85"
+                   transform="scale(10)">
+                  <text
+                     transform="matrix(1,0,0,-1,0,162.703)"
+                     style="font-variant:normal;font-weight:normal;font-size:9px;font-family:TimesLTPro;-inkscape-font-specification:TimesLTPro-Roman;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                     id="text89">
+                    <tspan
+                       x="0 4.5 9 11.502 15.498 19.493999 21.996 24.497999 28.997999 32.993999 35.243999 38.241001 42.741001 47.241001 51.237 53.738998 56.241001 60.741001"
+                       y="0"
+                       id="tspan87">objective function</tspan>
+                  </text>
+                </g>
+                <path
+                   d="M 323.828,212.559 H 2610.78"
+                   style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path91" />
+                <path
+                   d="m 2558.78,231.512 75.83,-18.953 -75.83,-18.969"
+                   style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                   id="path93" />
+                <path
+                   d="m 2564.56,224.121 46.22,-11.562 -46.22,-11.571"
+                   style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path95" />
+                <g
+                   id="g97"
+                   transform="scale(10)">
+                  <text
+                     transform="matrix(1,0,0,-1,265.837,19.2551)"
+                     style="font-variant:normal;font-weight:normal;font-size:9px;font-family:TimesLTPro;-inkscape-font-specification:TimesLTPro-Roman;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                     id="text103">
+                    <tspan
+                       x="0 3.5009999 6.0029998 9.9989996 12.501 16.497 18.747 22.247999 26.747999 30.743999 34.740002"
+                       y="0"
+                       id="tspan99">state space</tspan>
+                    <tspan
+                       x="-136.58701 -132.08701 -129.58501 -125.085 -120.585 -116.589 -114.087 -111.837 -104.835 -100.839 -96.338997 -93.836998 -86.834999 -82.334999"
+                       y="-137.02901"
+                       id="tspan101">global maximum</tspan>
+                  </text>
+                </g>
+                <path
+                   d="M 1981.88,955.809 1710.3,878.984"
+                   style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path105" />
+                <path
+                   d="m 1270.77,1584.73 -242.99,-67.89"
+                   style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path107" />
+                <g
+                   id="g109"
+                   transform="scale(10)">
+                  <text
+                     transform="matrix(1,0,0,-1,200.433,95.8938)"
+                     style="font-variant:normal;font-weight:normal;font-size:9px;font-family:TimesLTPro;-inkscape-font-specification:TimesLTPro-Roman;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                     id="text113">
+                    <tspan
+                       x="0 2.5020001 7.0019999 10.998 14.994 17.496 19.746 26.747999 30.743999 35.243999 37.745998 44.748001 49.248001"
+                       y="0"
+                       id="tspan111">local maximum</tspan>
+                  </text>
+                </g>
+                <path
+                   d="M 2333.86,796.805 2044.14,663.582"
+                   style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path115" />
+                <path
+                   d="m 368.496,418.031 c 0,0 0,0 13.699,3.27 13.7,3.269 41.098,9.828 70.278,24.129 29.183,14.289 60.148,36.32 97.672,64.609 37.523,28.293 81.593,62.832 117.921,133.699 36.329,70.871 64.918,178.078 79.207,231.68 14.293,53.605 14.293,53.605 15.786,53.605 1.488,0 4.464,0 25.906,0 21.433,0 61.34,0 81.293,0 19.953,0 19.953,0 21.144,13.094 1.192,13.102 3.571,39.309 13.996,128.943 10.422,89.63 28.883,242.69 47.645,328.74 18.758,86.07 37.816,105.12 56.877,105.12 19.05,0 38.11,-19.05 57.17,-95.28 19.06,-76.24 38.12,-209.64 57.18,-362.11 19.06,-152.464 38.11,-323.987 66.7,-438.331 28.59,-114.347 66.7,-171.519 104.82,-209.629 38.12,-38.129 76.23,-57.191 104.82,-66.711 28.58,-9.527 47.64,-9.527 66.7,0 19.06,9.52 38.12,28.582 57.17,76.231 19.06,47.648 38.12,123.879 57.18,200.109 19.05,76.231 38.12,152.461 57.17,200.106 19.06,47.648 38.11,66.703 57.18,57.179 19.06,-9.531 38.11,-47.648 57.16,-104.824 19.08,-57.168 38.13,-133.398 57.18,-209.629 19.06,-76.242 38.13,-152.461 57.18,-142.941 19.05,9.519 38.11,104.82 55.98,159.012 17.87,54.187 34.54,67.308 42.88,72.957 8.34,5.66 8.34,3.882 27.99,3.281 19.65,-0.602 58.96,0 78.62,0.301 19.65,0.3 19.65,0.3 23.22,-15.192 3.57,-15.488 10.73,-46.449 19.66,-70.867 8.92,-24.422 19.66,-42.293 29.18,-61.941 9.53,-19.661 17.87,-41.102 32.16,-62.532 14.29,-21.449 34.54,-42.879 60.15,-61.347 25.61,-18.461 56.59,-33.953 91.13,-41.692 34.54,-7.738 72.65,-7.738 91.71,-7.738 19.07,0 19.07,0 19.07,0"
+                   style="fill:none;stroke:#147a88;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path117" />
+                <g
+                   id="g119"
+                   transform="scale(10)">
+                  <text
+                     transform="matrix(1,0,0,-1,221.443,81.8133)"
+                     style="font-variant:normal;font-weight:normal;font-size:9px;font-family:TimesLTPro;-inkscape-font-specification:TimesLTPro-Roman;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                     id="text125">
+                    <tspan
+                       x="0 3.9960001 6.993 9.4949999 13.491 15.993 19.989 22.239 24.740999 29.240999 33.237 37.233002 39.735001 41.985001 48.987 52.983002 57.483002 59.985001 66.987 71.487"
+                       y="0"
+                       id="tspan121">“flat” local maximum</tspan>
+                    <tspan
+                       x="-178.06 -174.55901 -170.05901 -165.55901 -161.05901 -158.55701 -154.05701 -150.061"
+                       y="-33.7687"
+                       id="tspan123">shoulder</tspan>
+                  </text>
+                </g>
+                <path
+                   d="M 647.227,1134.48 822.32,946.883"
+                   style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path127" />
+                <path
+                   d="m 1552,584.469 43.49,82.679 0.54,-93.418"
+                   style="fill:#147a88;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                   id="path129" />
+                <path
+                   d="m 1581.25,496.059 c 0,15.32 -12.42,27.742 -27.73,27.742 -15.32,0 -27.75,-12.422 -27.75,-27.742 0,-15.297 12.43,-27.719 27.75,-27.719 15.31,0 27.73,12.422 27.73,27.719 v 0"
+                   style="fill:#82afb4;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                   id="path131" />
+                <path
+                   d="m 1581.25,496.059 c 0,15.32 -12.42,27.742 -27.73,27.742 -15.32,0 -27.75,-12.422 -27.75,-27.742 0,-15.297 12.43,-27.719 27.75,-27.719 15.31,0 27.73,12.422 27.73,27.719 z"
+                   style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                   id="path133" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

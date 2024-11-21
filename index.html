@@ -19,27 +19,234 @@
 	<div class="reveal">
 		<div class="slides">
 
-			<!-- Title Slide -->
-			<section data-background-color="white" data-background="images/bild.png" data-background-opacity="0.5"
-				data-auto-animate>
-				<h1>CONSTRAINT SATISFACTION PROBLEMS</h1>
+			<section>
+
+				<!-- Title Slide -->
+				<section data-background-color="white" data-background="images/bild.png" data-background-opacity="0.5"
+					data-auto-animate>
+					<h1>LOCAL SEARCH & CONSTRAINT SATISFACTION PROBLEMS</h1>
+				</section>
+
+				<!-- Title with Subtitle -->
+				<section data-background-color="white" data-background="images/bild.png" data-background-opacity="0.5"
+					data-auto-animate>
+					<h1>LOCAL SEARCH & CONSTRAINT SATISFACTION PROBLEMS</h1>
+					<h2 style="opacity: 1.0;">Breaking Open the Black Box:</h2>
+					<h3 style="opacity: 1.0;">Factored Representations and General Heuristics</h3>
+				</section>
+
 			</section>
 
-			<!-- Title Slide -->
-			<section data-background-color="white" data-background="images/bild.png" data-background-opacity="0.5"
-				data-auto-animate>
-				<h1>CONSTRAINT SATISFACTION PROBLEMS</h1>
-				<h2 style="opacity: 0.0;">Breaking Open the Black Box:</h2>
-				<h3 style="opacity: 0.0;">Factored Representations and General Heuristics</h3>
+
+
+			<!-- Local Search (title)-->
+			<section data-background-color="white" data-background="images/local_search_background.png"
+				data-background-opacity="0.7">
+				<section data-auto-animate>
+					<h1 data-id="backtrack_title" style="color: white; text-shadow: 9px -1px 13px black;">
+						Introduction to Local Search</h1>
+				</section>
+
+
+				<section data-auto-animate>
+					<h1 data-id="backtrack_title" style="color: white; text-shadow: 9px -1px 13px black;">
+						Introduction to Local Search</h1>
+					<h2 style="color: rgb(0, 0, 0); text-shadow: 9px -1px 13px rgb(255, 255, 255);">Efficient search in
+						large search spaces.
+					</h2>
+				</section>
 			</section>
 
-			<!-- Title with Subtitle -->
-			<section data-background-color="white" data-background="images/bild.png" data-background-opacity="0.5"
-				data-auto-animate data-auto-animate-duration="3.0">
-				<h1>CONSTRAINT SATISFACTION PROBLEMS</h1>
-				<h2 style="opacity: 1.0;">Breaking Open the Black Box:</h2>
-				<h3 style="opacity: 1.0;">Factored Representations and General Heuristics</h3>
+
+
+
+
+			<!-- Local Search -->
+			<section data-background-color="white" data-background="images/local_search_background.png"
+				data-background-opacity="0.2">
+
+				<!-- Overview of local search -->
+				<section>
+					<h2>What is Local Search?</h2>
+					<ul>
+						<li class="fragment"><b>Definition:</b> A method that starts with an initial solution and
+							iteratively improves it.</li>
+						<li class="fragment"><b>Key Characteristic:</b> Operates on a single solution at a time.</li>
+						<li class="fragment"><b>Advantage:</b> Effective for problems where complete search methods are
+							infeasible.</li>
+					</ul>
+				</section>
+
+				<!-- Landscape metaphor -->
+				<section>
+					<h2>The Search Landscape</h2>
+					<img class="custom_image" src="images/landscape.svg" style="width: 100%; height: auto;">
+
+
+				</section>
+
+				<!-- Applicability of Local Search -->
+				<section>
+					<h2>Why Use Local Search?</h2>
+					<ul>
+						<li class="fragment"><b>Applicability:</b> Suitable for large-scale optimization problems.</li>
+						<li class="fragment"><b>Examples:</b> Resource allocation, scheduling, and constraint
+							satisfaction problems (CSPs).</li>
+						<li class="fragment"><b>Efficiency:</b> Avoids exhaustive search by focusing on incremental
+							improvement.</li>
+					</ul>
+				</section>
+
+
+
+				<!-- Strengths and Weaknesses -->
+				<section>
+					<h2>Strengths and Weaknesses</h2>
+					<ul>
+						<li class="fragment"><b>Strengths:</b>
+							<ul>
+								<li>Scalable to large problems.</li>
+								<li>Can handle incomplete or noisy data.</li>
+								<li>Works well with heuristic improvements.</li>
+							</ul>
+						</li>
+						<li class="fragment"><b>Weaknesses:</b>
+							<ul>
+								<li>May get stuck in local maxima.</li>
+								<li>Difficulty in escaping plateaus without additional techniques.</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<!-- Hill-climbing -->
+				<section>
+					<h2>Hill-climbing Search</h2>
+					<ul>
+						<li class="fragment"><b>Definition:</b> A method that iteratively moves to the neighboring state
+							with the highest value (or lowest cost).</li>
+						<li class="fragment"><b>Key Feature:</b> Greedy approach that focuses solely on immediate
+							improvements.</li>
+						<li class="fragment"><b>Strengths:</b> Simple and efficient for finding local maxima or minima.
+						</li>
+						<li class="fragment"><b>Weaknesses:</b>
+							<ul>
+								<li class="fragment">Gets stuck at <b>local maxima</b> (or minima).</li>
+								<li class="fragment">Struggles with <b>plateaus</b> (flat regions) and <b>ridges</b>
+									(steep edges).</li>
+							</ul>
+						</li>
+					</ul>
+					
+				</section>
+
+				<section>
+					<h2>Hill-climbing Variations</h2>
+					<ul>
+						<li class="fragment"><b>Stochastic Hill-climbing:</b> Selects a random neighbor instead of the
+							best one, introducing some exploration.</li>
+						<li class="fragment"><b>First-choice Hill-climbing:</b> Stops as soon as a better neighbor is
+							found, improving efficiency.</li>
+						<li class="fragment"><b>Random Restart Hill-climbing:</b> Restarts from random states to escape
+							local maxima.</li>
+					</ul>
+				
+				</section>
+
+				<!-- Simulated Annealing -->
+				<section>
+					<h2>Simulated Annealing</h2>
+					<ul>
+						<li class="fragment"><b>Definition:</b> A probabilistic method inspired by the annealing process
+							in metallurgy.</li>
+						<li class="fragment"><b>Key Mechanism:</b> Allows occasional "downhill" moves (worse solutions)
+							to escape local maxima.</li>
+						<li class="fragment"><b>Cooling Schedule:</b> Gradually reduces the probability of accepting
+							worse solutions as the search progresses.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Simulated Annealing: Strengths and Weaknesses</h2>
+					<ul>
+						<li class="fragment"><b>Strengths:</b>
+							<ul>
+								<li class="fragment">Can escape local maxima.</li>
+								<li class="fragment">Good for large, complex search spaces.</li>
+							</ul>
+						</li>
+						<li class="fragment"><b>Weaknesses:</b>
+							<ul>
+								<li class="fragment">Sensitive to the cooling schedule (requires tuning).</li>
+								<li class="fragment">Slower convergence compared to greedy methods.</li>
+							</ul>
+						</li>
+					</ul>
+				
+				</section>
+
+				<!-- Local Beam Search -->
+				<section>
+					<h2>Local Beam Search</h2>
+					<ul>
+						<li class="fragment"><b>Definition:</b> A method that keeps track of multiple states
+							simultaneously and explores their neighbors.</li>
+						<li class="fragment"><b>Key Idea:</b> Uses the best "k" states to guide the search, rather than
+							just one.</li>
+						<li class="fragment"><b>Strengths:</b>
+							<ul>
+								<li class="fragment">Avoids focusing too narrowly on a single path.</li>
+								<li class="fragment">Better at escaping local maxima compared to single-state methods.
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Variation: Stochastic Beam Search</h2>
+					<ul>
+						<li class="fragment"><b>Stochastic Selection:</b> Chooses successors probabilistically based on
+							their fitness.</li>
+						<li class="fragment"><b>Advantage:</b> Adds diversity to the search, preventing premature
+							convergence.</li>
+					</ul>
+				</section>
+
+				<!-- Summary of Methods -->
+				<section>
+					<h2>Comparison of Local Search Methods</h2>
+					<table style = "font-size: 0.8em;">
+						<thead>
+							<tr>
+								<th>Method</th>
+								<th>Strengths</th>
+								<th>Weaknesses</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Hill-climbing</td>
+								<td>Fast, simple, effective for small problems.</td>
+								<td>Stuck in local maxima, struggles with plateaus.</td>
+							</tr>
+							<tr>
+								<td>Simulated Annealing</td>
+								<td>Escapes local maxima, suitable for large spaces.</td>
+								<td>Slow, requires careful tuning.</td>
+							</tr>
+							<tr>
+								<td>Local Beam Search</td>
+								<td>Explores multiple states, avoids narrow focus.</td>
+								<td>High memory usage, risk of convergence to suboptimal solutions.</td>
+							</tr>
+						</tbody>
+					</table>
+				
+				</section>
+
 			</section>
+
 
 
 			<!-- Definition and Explanation -->
@@ -411,48 +618,11 @@
 
 			</section>
 
-			<!-- Local Search for CSP (title)-->
-			<section data-background-color="white" data-background="images/local_search_background.png"
-				data-background-opacity="1.0">
-				<section data-auto-animate>
-					<h1 data-id="backtrack_title" style="color: white; text-shadow: 9px -1px 13px black;">
-						Local Search for CSP</h1>
-				</section>
-			</section>
 
-			<!-- Local Search for CSP (content)-->
+
+			<!-- Min-Conflict Heuristic -->
 			<section data-background-color="white" data-background="images/local_search_background.png"
 				data-background-opacity="0.2">
-				<section data-auto-animate>
-					<h1 style="color: black;">Local Search for CSP</h1>
-					<ul>
-						<li class="fragment"><b>Definition:</b> A search method that explores the "neighborhood" of
-							solutions to find a satisfactory solution.</li>
-						<li class="fragment"><b>Characteristic:</b> Focuses on incrementally improving an existing
-							solution.</li>
-						<li class="fragment"><b>Usage:</b> Effective for large CSPs with many variables.</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Basic Components</h2>
-					<ul>
-						<li class="fragment"><b>Initial State:</b> Starting point for the search, often a random
-							assignment.</li>
-						<li class="fragment"><b>Successor Function:</b> Generates "neighbors" of the current state.</li>
-						<li class="fragment"><b>Evaluation Function:</b> Assesses the quality of an assignment.</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Examples of Algorithms</h2>
-					<ul>
-						<li class="fragment"><b>Hill Climbing:</b> Moves only towards better states.</li>
-						<li class="fragment"><b>Simulated Annealing:</b> Allows temporary deteriorations to avoid local
-							maxima.</li>
-						<li class="fragment"><b>Tabu Search:</b> Uses memory to avoid previously explored states.</li>
-					</ul>
-				</section>
 
 				<section>
 					<h2>Min-Conflict Heuristic</h2>
